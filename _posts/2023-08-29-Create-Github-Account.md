@@ -18,7 +18,7 @@ email.
 3. Create a password **<u>that you will remember</u>**
    ![Enter Email in GitHub](..%2Fdocs%2Fassets%2Fimages%2FSignUpForGithub3.png)
 4. Create your username
-5.    ![Enter Email in GitHub](..%2Fdocs%2Fassets%2Fimages%2FSignUpForGithub4.png)
+   ![Enter Email in GitHub](..%2Fdocs%2Fassets%2Fimages%2FSignUpForGithub4.png)
 5. Type `n` and press enter to signify you don't want spam emails
 6. Solve the CAPTCHA
 7. Press Create Account
