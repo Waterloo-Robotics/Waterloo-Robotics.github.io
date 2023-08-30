@@ -1,3 +1,7 @@
+---
+author: Patrick Sedlacek
+---
+
 ## Where to Create
 Posts can be created within the _posts folder.
 ## How to name posts
