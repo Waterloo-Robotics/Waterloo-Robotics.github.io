@@ -1,0 +1,520 @@
+h1 {
+    color: blue;
+}
+
+.bannerText {
+    height: 25%;
+    font-size: 20px;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.header {
+    margin: 0px 0px 15px 0px;
+    padding: 10px 0px;
+    border: 0px solid #1E23D3;
+    display: flex;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 100px;
+    background-color: white;
+    border-radius: 1px;
+}
+
+/* Navbar container */
+.NavigationBar {
+    overflow: hidden;
+    background-color: #1E23D3;
+    margin-left: 10px;
+}
+
+/* Links inside the navbar */
+.NavigationBar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.NavigationBar > a {
+    margin-top: 20px;
+}
+
+/* The dropdown container */
+.dropdown {
+    float: left;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.NavigationBar a:hover, .dropdown:hover .dropbtn {
+    background-color: #1C7BCD;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.memberBoxes {
+    width: 95%;
+    display: block;
+    text-align: center;
+}
+
+.memberBox {
+    width: 170px;
+    height: 100px;
+    background-color: #1E23D3;
+    display: inline-block;
+    border-radius: 1px;
+    padding: 5px 5px;
+    margin: 10px 10px;
+}
+
+.memberBox:hover {
+    background-color: #1C7BCD;
+    transition: 0.3s;
+}
+
+.memberName {
+    position: relative;
+    bottom: 15px;
+    text-align: center;
+    color: white;
+}
+
+.sectionHeader {
+    color: white;
+    background-color: #1E23D3;
+    font-weight: bold;
+    border-radius: 1px;
+    width: 500px;
+    height: 40px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+hr.divider {
+    border: 1px solid black;
+}
+
+body {
+    background-color: #D3D3D3;
+}
+
+* {
+    border: 0px solid black;
+    font-family: Gadugi;
+}
+
+/* Toggle Switch Style*/
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    height: 45px;
+    bottom: 20px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* The slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .2s;
+    transition: .2s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 28px;
+    width: 28px;
+    left: 8px;
+    bottom: 8px;
+    background-color: white;
+    -webkit-transition: .2s;
+    transition: .2s;
+}
+
+input:checked + .slider {
+    background-color: #00B200;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(54px);
+    -ms-transform: translateX(54px);
+    transform: translateX(54px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 1px;
+}
+
+.slider.round:before {
+    border-radius: 1px;
+}
+
+/* Table Formatting */
+td {
+    border: 1px solid black;
+    border-radius: 1px;
+    text-align: center;
+    padding: 2px 5px;
+    white-space: nowrap;
+    background-color: white;
+}
+
+table tr:nth-child(even) td{
+    background-color: #d3d3d3;
+}
+
+th {
+    border: 1px solid black;
+    border-radius: 1px;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    background-color: #1E23D3;
+}
+
+table {
+    /*max-width: 95%;*/
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.test {
+    z-index: 5;
+}
+
+.table-raise {
+    outline: none;
+    outline-width: 2px;
+    z-index: 5;
+}
+
+.inventory-text {
+    font-size: 13px;
+}
+
+.tableButton {
+    padding: 2px 10px;
+    margin: 3px 3px;
+    font-weight: bold;
+    background-color: #1E23D3;
+    color: white;
+    border-radius: 2px;
+}
+
+#InventorySearchBar {
+    margin: 5px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 95%;
+    min-height: 50px;
+}
+
+#InventorySearchBar > *{
+    padding-bottom: 10px;
+    padding-right: 2px;
+    padding-left: 2px;
+}
+
+#InventorySearchBar > button {
+    font-size: 12px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 5px;
+    width: 100px;
+    font-weight: bold;
+    background-color: white;
+}
+
+table tr:hover td {
+    background-color: #1C7BCD;
+    transition: 0.3s;
+}
+
+.filter > input {
+    font-size: 12px;
+    padding: 5px;
+    padding-left: 10px;
+    border: 1px solid black;
+    border-radius: 1px;
+    width: 200px;
+}
+
+.filter > select {
+    font-size: 12px;
+    padding: 5px;
+    padding-left: 10px;
+    border: 1px solid black;
+    border-radius: 1px;
+    width: 200px;
+}
+
+.filter > label {
+    font-size: 12px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 5px;
+    width: 250px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.filter > button:hover {
+    background-color: #1C7BCD;
+    transition: 0.3s;
+}
+.login-header p {
+    margin: 2px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.login-header button {
+    background-color: #1E23D3;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+.login-header button:hover {
+    background-color: #1C7BCD;
+}
+
+/* Tab Formatting */
+
+.tab {
+    overflow: hidden;
+    margin-left: 10px;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+    background-color: #1E23D3;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    border-radius: 1px;
+    margin-top: 20px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #1C7BCD;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #1C7BCD;
+}
+
+
+/* Style the tab content */
+.tabContent {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+    animation: fadeEffect 0.25s;
+}
+
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+.question {
+    text-align: center;
+}
+
+.question > * {
+    display: inline-block;
+    width: 300px;
+    margin-top: 15px;
+}
+
+.question > label {
+    font-size: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 5px;
+    width: 275px;
+    text-align: left;
+}
+
+.question input,select {
+    font-size: 20px;
+    padding: 5px;
+    padding-left: 10px;
+    border: 1px solid black;
+    border-radius: 1px;
+    width: 300px;
+}
+
+.modal {
+    display: none;
+    z-index: 2;
+    padding-top: 150px;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    animation: fadeEffect 0.125s;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    position: fixed;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#login-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#login-modal > .modal-content {
+    width: 300px;
+    max-width: 100%;
+    margin: auto;
+    margin-top: 5%;
+}
+
+#login-modal .login-input {
+    font-size: 15px;
+    border-radius: 1px;
+    width: 200px;
+    padding: 5px;
+    margin: auto;
+}
+
+.login-input label {
+    text-align: center;
+    width: 200px;
+}
+
+.login-input input {
+    font-size: 15px;
+    width: 200px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 1px;
+}
+
+#log-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#log-modal > .modal-content {
+    width: 350px;
+    max-width: 100%;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.log-input {
+    padding: 5px;
+}
+
+.log-input > input {
+    font-size: 15px;
+    width: 200px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 1px;
+}
